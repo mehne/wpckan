@@ -6,10 +6,6 @@
     {
       "type": "vcs",
       "url": "https://github.com/mehne/CKAN_PHP"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/OpenDevelopmentMekong/PHP-SimpleCache"
     }
   ],
   "require": {
