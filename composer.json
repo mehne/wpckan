@@ -5,15 +5,11 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/OpenDevelopmentMekong/CKAN_PHP"
+      "url": "https://github.com/mehne/CKAN_PHP"
     },
     {
       "type": "vcs",
       "url": "https://github.com/OpenDevelopmentMekong/PHP-SimpleCache"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/mehne/CKAN_PHP"
     }
   ],
   "require": {
