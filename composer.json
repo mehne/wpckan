@@ -22,6 +22,6 @@
     "analog/analog": "1.0.16",
     "twitter/typeahead.js": "dev-master",
     "gilbitron/php-simplecache": "dev-master",
-    "doctrine/cache": "^2.2.*"
+    "doctrine/cache": "2.2.*"
   }
 }
