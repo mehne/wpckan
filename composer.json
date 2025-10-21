@@ -10,11 +10,15 @@
     {
       "type": "vcs",
       "url": "https://github.com/OpenDevelopmentMekong/PHP-SimpleCache"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mehne/CKAN_PHP"
     }
   ],
   "require": {
     "psr/log": "1.1.4",
-    "silex/ckan_client": "dev-master",
+    "mehne/ckan_client": "dev-master",
     "analog/analog": "1.0.16",
     "twitter/typeahead.js": "dev-master",
     "gilbitron/php-simplecache": "dev-master",
