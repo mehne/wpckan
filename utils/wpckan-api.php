@@ -353,8 +353,9 @@
           $ckanClient = CkanClient::factory($settings);
           $commandName = 'status_show';
           $arguments = array();
-          $command = $ckanClient->getCommand($commandName, $arguments);
-          $response = $command->execute();
+        //  $command = $ckanClient->getCommand($commandName, $arguments);
+        //   $response = $command->execute();
+        $response = $ckanClient->request($commandName, $arguments);
 
           wpckan_log('wpckan_do_ping commandName: '.$commandName.' arguments: '.print_r($arguments, true).' settings: '.print_r($settings, true));
       } catch (Exception $e) {
