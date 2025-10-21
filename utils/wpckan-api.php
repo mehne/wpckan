@@ -351,7 +351,7 @@
       try {
           $settings = wpckan_get_ckan_settings();
           $ckanClient = CkanClient::factory($settings);
-          $commandName = 'SiteRead';
+          $commandName = 'status_show';
           $arguments = array();
           $command = $ckanClient->getCommand($commandName, $arguments);
           $response = $command->execute();
